@@ -1,0 +1,64 @@
+/* Design tokens — mapped from src/theme/themes.ts + src/theme/colors.ts */
+
+:root,
+[data-theme="light"] {
+  --bg-base: #FFFFFF;
+  --bg-surface: #ededed;
+  --bg-surface-raised: #f3f3f3;
+  --bg-surface-subtle: #E8E8E8;
+  --bg-inverse: #0D0D0D;
+
+  --text-primary: #0D0D0D;
+  --text-secondary: #1A1A1A;
+  --text-tertiary: #666666;
+  --text-disabled: #8C8C8C;
+  --text-inverse: #FAFAFA;
+  --text-link: #0F62FE;
+  --text-on-accent: #FAFAFA;
+
+  --border-default: #D9D9D9;
+  --border-subtle: #E8E8E8;
+  --border-strong: #666666;
+
+  --accent: #0F62FE;
+  --accent-hover: #5998FA;
+  --accent-subtle: #D0E2FF;
+  --accent-text: #EAF2FE;
+
+  --success: #30D158;
+  --error: #FF3B30;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.06), 0 12px 32px rgba(0,0,0,0.08);
+}
+
+[data-theme="dark"] {
+  --bg-base: #000000;
+  --bg-surface: #262626;
+  --bg-surface-raised: #1A1A1A;
+  --bg-surface-subtle: #0D0D0D;
+  --bg-inverse: #FAFAFA;
+
+  --text-primary: #FAFAFA;
+  --text-secondary: #F2F2F2;
+  --text-tertiary: #8C8C8C;
+  --text-disabled: #666666;
+  --text-inverse: #000000;
+  --text-link: #5998FA;
+  --text-on-accent: #FAFAFA;
+
+  --border-default: #1A1A1A;
+  --border-subtle: #262626;
+  --border-strong: #D9D9D9;
+
+  --accent: #0F62FE;
+  --accent-hover: #5998FA;
+  --accent-subtle: #0039B7;
+  --accent-text: #EAF2FE;
+
+  --success: #289B4F;
+  --error: #FF3B30;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.5), 0 16px 48px rgba(0,0,0,0.4);
+}
