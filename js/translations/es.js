@@ -16,7 +16,7 @@ window.Repp.translations.es = {
 
   /* Feature 1 — Entrenamiento en vivo */
   'feat.f1.title': 'Registrá tus entrenamientos',
-  'feat.f1.desc': 'Una sencilla aplicación para llevar un registro de tus entrenamientos. Todo lo que necesitas, nada que no',
+  'feat.f1.desc': 'Una sencilla aplicación para llevar un registro de tus entrenamientos. Todo lo que necesitas.',
   'feat.f1.b1': '✓ Timer de descanso automático',
   'feat.f1.b2': '✓ Planificador de rutinas',
   'feat.f1.b3': '✓ Marca sets de calentamiento, dropsets y sets al fallo',

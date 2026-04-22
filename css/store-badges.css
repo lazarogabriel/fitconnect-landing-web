@@ -1,6 +1,7 @@
 .store-badges {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-top: 28px;
   justify-content: center;
 }
@@ -10,6 +11,8 @@
   gap: 10px;
   height: 54px;
   padding: 0 20px;
+  min-width: 0;
+  flex-shrink: 1;
   background: #000;
   border: 1.5px solid rgba(255,255,255,.18);
   border-radius: 13px;
